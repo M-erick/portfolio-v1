@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
     <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: Oswald, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            width: fit-content;
         }
         nav {
             background-color: #333;
@@ -115,7 +119,7 @@
         </div>
         <div class="profile-card">
             <div class="profile-info">
-                <h2>Erick Muriithi Kariuki</h2>
+                <h2 style=" font-family: Oswald;">Erick Muriithi Kariuki</h2>
                 <p>Software Developer</p>
                 <p>Location: Nairobi, Kenya</p>
                 <p>Email: muriithierick3758@gmail.com</p>
@@ -125,15 +129,15 @@
             <!-- Skill cards -->
             <div class="profile-card">
                 <div class="profile-info">
-                    <h2>Web Developer</h2>
-                    <p>Skills</p>
+                    <h2 style="font-weight:bold">Web Developer</h2>
+                    <p style="font-weight: bold;">Skills</p>
                     <p>Laravel, Django, Python, and JavaScript programming languages</p>
                 </div>
             </div>
             <div class="profile-card">
                 <div class="profile-info">
-                    <h2>UX/UI DESIGN</h2>
-                    <p>Skills</p>
+                    <h2 style="font-weight:bold">UX/UI DESIGN</h2>
+                    <p style="font-weight:bold">Skills</p>
                     <p>Figma, Adobe Suite</p>
                 </div>
             </div>
@@ -142,7 +146,6 @@
         <!-- Embed a webpage with an iframe -->
         <iframe src="https://example.com" title="Embedded Page"></iframe>
         
-        <!-- Canvas for graphics or interactive elements -->
         <canvas id="profileCanvas"></canvas>
         <script>
             const canvas = document.getElementById('profileCanvas');
@@ -153,7 +156,7 @@
                 ctx.fillRect(10, 10, 130, 100);
                 ctx.fillStyle = 'black';
                 ctx.font = '18px Arial';
-                ctx.fillText('Hello, Canvas!', 20, 60);
+                ctx.fillText('Erick Muriithi Kariuki', 20, 60);
             }
         </script>
     </div>
