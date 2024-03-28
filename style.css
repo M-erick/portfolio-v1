@@ -2,7 +2,7 @@ body {
     font-family: Oswald, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     width: 100vw;
     height: 100vh;
 
@@ -14,25 +14,26 @@ body {
 
   
 nav {
-    background-color: lightgray;
-    color: #fff;
+    background-color: white;
+    color: black;
+    font-weight: bold;
     padding: 10px 20px;
+    
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: flex-start;
     
 }
-nav ul:not(:first-child){
-    justify-content: flex-end;
-}
+
 nav ul li {
     margin-right: 20px;
 }
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -51,7 +52,7 @@ nav ul li a {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 .profile-picture {
     border-radius: 50%;
