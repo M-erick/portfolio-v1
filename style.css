@@ -12,6 +12,19 @@ body {
       
 }
 
+.menu a{
+    color: black ;
+    font-weight: light;
+    font-size: 23px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px; 
+}
+
+
+
   
 nav {
     background-color: white;
@@ -44,6 +57,12 @@ nav ul li a {
     text-transform: capitalize;
 
 }
+.card {
+    padding-top:10px ;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);}
 
 .profile-container {
     /* max-width: 600px; */
@@ -117,23 +136,10 @@ footer{
     border-style:solid ;
 
 }
-.button-container {
-    display: flex;
-    justify-content: ;
-    margin: 8px;
-}
-button{
-    margin: 8px;
-    padding: 18px;
+ .button {
+    border-radius: 3px;
+
     background-color: white;
-    color:black;
-    border-color: red;
-    border:  solid ;
-    border-radius: 0;
-}
-button:hover{
-    background-color: red;
-    color: white;
-    
-}
+ }
+
 
